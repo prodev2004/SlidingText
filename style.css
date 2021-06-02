@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', sans-serif;
+}
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 8rem;
+}
+.text {
+    display: flex;
+}
+.shown-text {
+    overflow-y: hidden;
+    height: 10rem;
+    margin-left: 2rem;
+}
+.shown-text h1 {
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.335);
+    letter-spacing: 10px;
+    animation: slide-down 6s infinite;
+}
+
+@keyframes slide-down {
+    0% {
+        transform: translateY(0%);
+    }
+    10% {
+        transform: translateY(0%);
+    }
+    20% {
+        transform: translateY(-100%);
+    }
+    30% {
+        transform: translateY(-100%);
+    }
+    40% {
+        transform: translateY(-200%);
+    }
+    50% {
+        transform: translateY(-200%);
+    }
+    60% {
+        transform: translateY(-100%);
+    }
+    70% {
+        transform: translateY(-100%);
+    }
+    80% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* GITHUB LINK ON THE DESC FOR THE FULL CODE <3 .   THERE YOU CAN FIND THE KEYFRAMES ALSO.*/
+
+/* PRETTY COOL HUH... */
